@@ -1,0 +1,19 @@
+# Sample vars (tailor for your environment)
+aap_fips_enabled: true
+tls_mode: reencrypt
+tls_min_version: TLSv1.2
+
+# ConMon safe defaults
+conmon_dry_run: true
+conmon_dry_run_allow_get: true
+
+# Grafana deployment (vault these in real use)
+grafana_url: "https://grafana.example.mil"
+grafana_token: "{{ vault_grafana_token }}"
+grafana_folder_uid: "aap-conmon"
+
+# eMASS (vault in real use)
+emass_base_url: "https://emass.example.mil"
+emass_system_id: 12345
+emass_api_key: "{{ vault_emass_api_key }}"
+emass_user_uid: "{{ vault_emass_user_uid }}"

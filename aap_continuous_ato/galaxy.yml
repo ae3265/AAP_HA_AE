@@ -1,0 +1,24 @@
+namespace: platform
+name: aap_continuous_ato
+version: 1.0.0
+readme: README.md
+authors:
+  - Platform Engineering
+description: >
+  Ansible Automation Platform HA with Continuous ATO, Zero Trust,
+  OpenSCAP, OPA, eMASS automation, and cryptographically verifiable evidence.
+license:
+  - Apache-2.0
+tags:
+  - ansible
+  - aap
+  - stig
+  - nist
+  - fedramp
+  - zero-trust
+  - emass
+dependencies: {}
+repository: https://example.mil/platform/aap_continuous_ato
+documentation: docs/AUDITOR_GUIDE.md
+homepage: https://example.mil/platform
+issues: https://example.mil/platform/issues

@@ -1,0 +1,7 @@
+---
+# Continuous Monitoring pipeline (framework)
+- hosts: all
+  gather_facts: true
+  tasks:
+    - debug:
+        msg: 'Run ConMon pipeline roles here (placeholder)'

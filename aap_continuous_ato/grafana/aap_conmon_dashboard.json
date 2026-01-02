@@ -1,0 +1,26 @@
+{
+  "title": "AAP Continuous ATO - ConMon",
+  "uid": "aap-conmon",
+  "schemaVersion": 39,
+  "version": 1,
+  "refresh": "30s",
+  "tags": [
+    "AAP",
+    "ConMon",
+    "Continuous ATO"
+  ],
+  "templating": {
+    "list": [
+      {
+        "name": "DS_PROMETHEUS",
+        "type": "datasource",
+        "query": "prometheus",
+        "current": {
+          "text": "Prometheus",
+          "value": "Prometheus"
+        }
+      }
+    ]
+  },
+  "panels": []
+}

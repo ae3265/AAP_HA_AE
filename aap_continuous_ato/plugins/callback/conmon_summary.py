@@ -1,0 +1,1 @@
+# Placeholder callback plugin

@@ -1,0 +1,7 @@
+---
+# Placeholder: AAP HA deployment playbook
+- hosts: all
+  gather_facts: true
+  tasks:
+    - debug:
+        msg: 'Deploy AAP HA baseline (placeholder)'

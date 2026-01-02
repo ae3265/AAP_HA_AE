@@ -1,0 +1,6 @@
+<xccdf:Tailoring xmlns:xccdf="http://checklists.nist.gov/xccdf/1.2">
+  <xccdf:benchmark href="/usr/share/xml/scap/ssg/content/ssg-rhel9-ds.xml"/>
+  <xccdf:Profile id="AAP-RHEL9-STIG">
+    <xccdf:title>AAP RHEL9 STIG Tailored Profile</xccdf:title>
+  </xccdf:Profile>
+</xccdf:Tailoring>

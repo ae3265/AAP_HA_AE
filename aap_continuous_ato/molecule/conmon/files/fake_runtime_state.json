@@ -1,0 +1,8 @@
+{
+  "patroni": {
+    "health_rc": 200,
+    "health_body": {
+      "state": "running"
+    }
+  }
+}

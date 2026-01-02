@@ -1,0 +1,6 @@
+---
+- hosts: all
+  gather_facts: true
+  tasks:
+    - debug:
+        msg: 'Upgrade 03 Continuous ATO (placeholder)'
